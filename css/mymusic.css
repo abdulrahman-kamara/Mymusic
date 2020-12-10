@@ -1,0 +1,157 @@
+    /* le body est respecter le police de gooogle */
+    
+    @import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@700&display=swap');
+    body {
+        padding: 0;
+        margin: 0;
+        background: rgb(0, 36, 2);
+        background: linear-gradient(149deg, rgba(0, 36, 2, 1) 0%, rgba(41, 217, 159, 1) 97%);
+        font-family: 'BioRhyme', serif;
+    }
+    /* mon logo et le titre le mon page */
+    
+    .logo {
+        display: flex;
+        border: 1px solid black;
+        background-color: red;
+        color: white;
+        color-interpolation-filters: sRGB;
+        padding-left: 20px;
+        font-size: 36px;
+    }
+    /* le bannier montre le punch line de la page et represente toutle le artiste de la page */
+    
+    .banner {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    /* le container est le main branc de la page et ce la on a les information qui est plus important */
+    
+    .container {
+        position: relative;
+        width: 1100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    /* le card represent le image et le conent de chaque artiste */
+    
+    .card {
+        position: relative;
+        max-width: 300px;
+        height: 215px;
+        margin: 30px 20px;
+        padding: 20px 15px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0px 5px 202px black t
+    }
+    /* le hover toujoure donner le beauty de la page */
+    
+    .card:hover {
+        height: 420px;
+    }
+    /* le image est ont dans la card */
+    
+    .image {
+        position: relative;
+        width: 260px;
+        height: 260px;
+        top: -60px;
+        left: 80px;
+        z-index: 1;
+        box-shadow: 0px 5px 20px rgba(red, green, blue);
+    }
+    /* represente le chaque image et modifier la tire et le radius de toute le imgs */
+    
+    img {
+        max-width: 100%;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    /* le conent donner une pettite history de les artiste */
+    
+    .content {
+        position: relative;
+        top: -90px;
+        padding: 10px 15px;
+        text-align: center;
+        backface-visibility: hidden;
+        opacity: 0;
+        transition: 0.1s ease-in-out;
+        -webkit-transition: 0.1s ease-in-out;
+        -moz-transition: 0.1s ease-in-out;
+        -ms-transition: 0.1s ease-in-out;
+        -o-transition: 0.1s ease-in-out;
+    }
+    
+    .container .card:hover .content {
+        visibility: visible;
+        opacity: 1;
+        margin-top: 40px;
+        transition-delay: 01s;
+    }
+    /* avec le section on a deplacer toute le bolck trés facilement */
+    
+    .section {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .middle {
+        display: flex;
+        margin-top: 20px;
+        text-align: center;
+        justify-content: center;
+        margin: 20px 20px 20px 20px;
+    }
+    
+    .middle h2 {
+        display: flex;
+        margin: 20px 20px 20px 20px;
+    }
+    /* le button donner en lien que quand on click on vas toumbe dans le lein qui on sus */
+    
+    button {
+        background-color: black;
+        color: white;
+    }
+    
+    .middle:hover {
+        visibility: visible;
+        opacity: 1;
+        margin-top: 40px;
+        transition-delay: 01s;
+        color: green;
+    }
+    
+    .down {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        border: 1px solid black;
+        background-color: red;
+    }
+    
+    .down li {
+        list-style: none;
+        justify-content: space-between;
+        margin: 20px 20px 20px 20px;
+    }
+    /* c'est ici on a mis le reponsiveness de la page */
+    
+    @media (max-width: 500%) {
+        body {
+            background-color: white;
+        }
+    }
