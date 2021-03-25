@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../css/mymusic.css">
+
  <!-- le containier que prandre toute la page -->
  <main>
      <!-- le card une image avec le lien qui ver cherche le playlist et de biography de le Artiste -->
@@ -7,7 +9,7 @@
          <div class="col">
              <div class="card">
                  <!-- le card une image avec le lien qui ver cherche le playlist et de biography de le Artiste -->
-                 <a href="/views/wizkid.html"><img src="img/Wizkid.jpg" alt="wizkid"></a>
+                 <a href="../views/wizkid.php"><img src="../img/Wizkid.jpg" alt="wizkid"></a>
                  <div class="card-body">
                      <h5 class="card-title"><strong>MADE IN LAGOS</strong></h5>
                      <!-- le content pris une petite history de chaque de l'album -->
@@ -18,7 +20,7 @@
          <div class="col">
              <div class="card">
                  <!-- le card une image avec le lien qui ver cherche le playlist et de biography de le Artiste -->
-                 <a href="/views/burnaboy.html"><img src="img/Twice_as_Tall_Burna_Boy_Album.jpg" alt="davido"></a>
+                 <a href="../views/burnaboy.php"><img src="../img/Twice_as_Tall_Burna_Boy_Album.jpg" alt="davido"></a>
                  <div class="card-body">
                      <h5 class="card-title"><strong>TWICE AS TALL</strong></h5>
                      <!-- le content pris une petite history de chaque de l'album -->
@@ -29,7 +31,7 @@
          <div class="col">
              <div class="card">
                  <!-- le card une image avec le lien qui ver cherche le playlist et de biography de le Artiste -->
-                 <a href="/views/davido.html"> <img src="img/A-BETTER-TIME-Cover-art-1024x1024.jpg" alt="DAVIDO"></a>
+                 <a href="../views/davido.php"> <img src="../img/A-BETTER-TIME-Cover-art-1024x1024.jpg" alt="DAVIDO"></a>
                  <div class="card-body">
                      <h5 class="card-title"><strong>A BETTER TIME</strong></h5>
                      <!-- le content pris une petite history de chaque de l'album -->
@@ -40,7 +42,7 @@
          <div class="col">
              <div class="card">
                  <!-- le card une image avec le lien qui ver cherche le playlist et de biography de le Artiste -->
-                 <a href="/views/africangiant.html"><img src="img/african-giant-burna-boy.jpg" alt="burna boy"></a>
+                 <a href="../views/africangiant.php"><img src="../img/african-giant-burna-boy.jpg" alt="burna boy"></a>
                  <div class="card-body">
                      <h5 class="card-title"><strong>AFICAN GIANTS</strong></h5>
                      <!-- le content pris une petite history de chaque de l'album -->
@@ -51,7 +53,7 @@
          <div class="col">
              <div class="card">
                  <!-- le card une image avec le lien qui ver cherche le playlist et de biography de le Artiste -->
-                 <a href="/views/her.html"><img src="img/her.jpg" alt="HER"></a>
+                 <a href="../views/her.php"><img src="../img/her.jpg" alt="HER"></a>
                  <div class="card-body">
                      <h5 class="card-title"><strong>H.E.R.</strong></h5>
                      <!-- le content pris une petite history de chaque de l'album -->
@@ -62,7 +64,7 @@
          <div class="col">
              <!-- le card une image avec le lien qui ver cherche le playlist et de biography de le Artiste -->
              <div class="card">
-                 <a href="/views/tems.html"> <img src="img/tems.jpg" alt="tems"></a>
+                 <a href="../views/tems.php"> <img src="../img/tems.jpg" alt="tems"></a>
                  <div class="card-body">
                      <h5 class="card-title"><strong>TEMS</strong></h5>
                      <!-- le content pris une petite history de chaque de l'album -->
@@ -101,4 +103,4 @@
          <button type="button" class="btn btn-primary">GO</button>
          <h2>avec YouTube</h2>
      </div>
- </section>
+ </section>s

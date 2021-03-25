@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'a8071d771e4ae0a2c3dec68d5d1eac193ff40639',
+    'reference' => '636c3c1c00b451e20b5851214889aec78f098db7',
     'name' => '__root__',
   ),
   'versions' => 
@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'a8071d771e4ae0a2c3dec68d5d1eac193ff40639',
+      'reference' => '636c3c1c00b451e20b5851214889aec78f098db7',
     ),
     'altorouter/altorouter' => 
     array (
