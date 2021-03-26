@@ -1,18 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/mymusic.css">
-    <title>My Music</title>
-</head>
 
-<body>
-    <?php require "./views/components/header.php"; ?>
-    <?php require "./views/components/footer.php"; ?>
-    <?php require "router.php"; ?>
-</body>
 
-</html>
+require "./views/components/header.php";
+
+require "./router.php";
+
+require "./views/components/footer.php";

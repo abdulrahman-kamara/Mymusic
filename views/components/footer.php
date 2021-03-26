@@ -6,3 +6,6 @@
         <li>SUPPORTS</li>
         <li>CONTACTS</li>
     </section>
+    </body>
+
+    </html>

@@ -1,13 +1,8 @@
 <?php
-$name = "localhost";
-$user = "root";
-$password = "";
-
-$db_name = "my_music_login";
-
-$conn = mysqli_connect($name, $user, $password, $db_name);
-if (!$conn) {
-    echo "connection faild";
-} else {
-    echo "connection ";
+// connexion à la bdd
+try {
+    $db = new PDO("mysql:host=localhost;dbname=my_music_login", 'root', '');
+    $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $err) {
+    die('Erreur de connexion: ' . $err->getMessage());
 }

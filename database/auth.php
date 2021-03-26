@@ -1,14 +1,13 @@
 <?php
-$email = "rahmanraynkunta@gmail.com";
-$pass = "PHYSICs24";
+require './function/function.php';
 
 if (isset($_POST['email']) && isset($_POST['password'])) {
     if (($_POST['email']) === $email && ($_POST['password']) === $pass) {
         session_start();
         $_SESSION['admin'] = $email;
-        require  './index.php';
+        require  './views/home.php';
     } else {
-        require  '/views/loginForm.php';
+        require  './views/loginForm.php';
     }
 } else {
     require  './views/loginForm.php';
