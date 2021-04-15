@@ -1,21 +1,17 @@
 <?php
-require 'vendor/autoload.php';
-$router = new AltoRouter();
+if (isset($_GET["page"])) {
 
-// $router->setBasePath('epitech/KAMARA_ABDULRAHMAN-ECF202012_1/');
+    $page = $_GET["page"];
+} else {
+    $page = "home";
+}
+if ($page === "home") {
+    require_once "./views/home.php";
+}
+if ($page === "africangiants") {
+    require_once "./views/africangiants.php";
+}
 
-
-$router->map('GET', '/', function () {
-
-    require __DIR__ . "/database/auth.php";
-});
-
-$router->map('GET', '/test', function () {
-    require './views/home.php';
-});
-
-
-$match = $router->match();
-if ($match !== null) {
-    $match['target']();
+if ($page === "connection") {
+    require_once "./database/connection.php";
 }
